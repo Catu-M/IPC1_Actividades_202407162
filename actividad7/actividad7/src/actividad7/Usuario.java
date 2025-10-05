@@ -9,5 +9,17 @@ package actividad7;
  * @author Manuel Catú
  */
 public class Usuario {
-    
+    private String Nombre;
+
+    public Usuario(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
 }
