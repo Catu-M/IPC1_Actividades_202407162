@@ -4,9 +4,12 @@
  */
 package actividad7;
 
+import controladores.Cusuario;
+import vista.login;
+
 /**
  *
- * @author Manuel Catú
+ * @author aleja
  */
 public class Actividad7 {
 
@@ -14,7 +17,9 @@ public class Actividad7 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     
+        login vistaLogin = new login();
+        new Cusuario(vistaLogin);
+        vistaLogin.setVisible(true); 
     }
     
 }

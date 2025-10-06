@@ -2,16 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package actividad7;
+package modelo;
 
 /**
  *
- * @author Manuel Catú
+ * @author aleja
  */
-public class Usuario {
+public class usuario {
     private String Nombre;
 
-    public Usuario(String Nombre) {
+    public usuario(String Nombre) {
         this.Nombre = Nombre;
     }
 
@@ -21,5 +21,5 @@ public class Usuario {
 
     public void setNombre(String Nombre) {
         this.Nombre = Nombre;
-    }
+    }    
 }
